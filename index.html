@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,25 +8,30 @@
   </head>
   <body>
     <header>
+      <!--Змінив мову документу-->
       <nav>
-        <a href="./index.html">WebStudio</a>
+        <a lang="en" href="./index.html">WebStudio</a>
         <ul>
           <li><a href="./index.html">Студія</a></li>
           <li><a href=""></a>Контакти</li>
           <li><a href=""></a>Портфоліо</li>
         </ul>
       </nav>
-      <div>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
-      </div>
+      <ul>
+        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      </ul>
+      <!--телефон та пошту перезагорнуто у список-->
+      <!--Перша секція винесена за header в main-->
+    </header>
+    <main>
       <section>
         <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
         <button type="button">Замовити послугу</button>
       </section>
-    </header>
-    <main>
       <section>
+        <h2 class="hidden">Особливості</h2>
+        <!--Додав прихований заголовок-->
         <ul>
           <li>
             <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -63,7 +68,7 @@
           <li>
             <img
               src="./images/box1.jpg"
-              alt="developing"
+              alt="розробка"
               width="370"
               height="294"
             />
@@ -71,7 +76,7 @@
           <li>
             <img
               src="./images/box2.jpg"
-              alt="adaptation"
+              alt="адаптування"
               width="370"
               height="294"
             />
@@ -79,64 +84,78 @@
           <li>
             <img
               src="./images/box3.jpg"
-              alt="design"
+              alt="дизайн"
               width="370"
               height="294"
             />
           </li>
         </ul>
       </section>
+        <!--підписи зображень у alt перероблені відповідно до мови сторінки-->
       <section>
         <h2>Наша команда</h2>
         <ul>
           <li>
             <img
               src="./images/img1.jpg"
-              alt="product_designer"
+              alt="Ігор_Дем'яненко"
               width="270"
               height="260"
             />
             <h3>Ігор Дем'яненко</h3>
-            <p>Product Desigber</p>
+            <p lang="en">Product Desigber</p>
           </li>
           <li>
             <img
               src="./images/img2.jpg"
-              alt="frontend_developer"
+              alt="Ольга_Рєпіна"
               width="270"
               height="260"
             />
             <h3>Ольга Рєпіна</h3>
-            <p>Frontend Developer</p>
+            <p lang="en">Frontend Developer</p>
           </li>
           <li>
             <img
               src="./images/img3.jpg"
-              alt="marketing"
+              alt="Микола_Тарасов"
               width="270"
               height="260"
             />
             <h3>Микола Тарасов</h3>
-            <p>Marketing</p>
+            <p lang="en">Marketing</p>
           </li>
           <li>
             <img
               src="./images/img4.jpg"
-              alt="ui_designer"
+              alt="Михайло_Єрмаков"
               width="270"
               height="260"
             />
             <h3>Михайло Єрмаков</h3>
-            <p>UI Designer</p>
+            <p lang="en">UI Designer</p>
           </li>
         </ul>
       </section>
+      <!--змінена мова в тегах p, змінені підписи alt-->
     </main>
     <footer>
-      <h3>WebStudio</h3>
-      <address>м. Київ, пр-т Лесі Українки,26</address>
-      <div><a href="mailto:info@devstudio.com">info@devstudio.com</a></div>
-      <div><a href="tel:+380961111111">+38 096 111 11 11</a></div>
+      <a lang="en" href="./index.html">WebStudio</a>
+      <address>
+        <ul>
+          <li>
+            <a
+              href="https://goo.gl/maps/RMe9iffRCKQZoAKb7"
+              target="_blank"
+              rel="noopener no refferrer"
+              >м. Київ, пр-т Лесі Українки,26</a
+            >
+          </li>
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+      </address>
     </footer>
+    <!--підпис лого перероблено в посилання, змінений блок adress-->
   </body>
 </html>
